@@ -10,6 +10,7 @@ var postRouter = require('./routes/post');
 var resetRouter = require('./routes/reset');
 
 var app = express();
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
@@ -41,6 +42,10 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+app.listen(8010, function () {
+  console.log('Example app listening on port 8010!');
 });
 
 module.exports = app;
