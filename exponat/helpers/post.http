@@ -1,0 +1,31 @@
+# GET http://localhost:3000
+
+POST http://localhost:3000/post
+Content-Type: text/plain
+
+H
+###
+
+POST http://localhost:3000/post
+Content-Type: text/plain
+
+e
+###
+
+POST http://localhost:3000/post
+Content-Type: text/plain
+
+l
+###
+
+POST http://localhost:3000/post
+Content-Type: text/plain
+
+l
+###
+
+POST http://localhost:3000/post
+Content-Type: text/plain
+
+o
+###
