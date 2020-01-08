@@ -60,4 +60,6 @@ Temporary Items
 # PROJECT
 #
 
-
+# IDEs and Editors
+.idea/
+thesis.iml
