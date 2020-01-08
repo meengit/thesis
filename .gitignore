@@ -63,3 +63,6 @@ Temporary Items
 # IDEs and Editors
 .idea/
 thesis.iml
+
+# Node
+node_modules/*
