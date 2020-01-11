@@ -6,12 +6,11 @@ function getText(int) {
 
 function fetch() {
   clearInterval(nIntervId);
-  axios.get("https://typewriter.meen.ch/")
+  axios.get("https://typewriter.meen.ch/text.txt")
     .then(function(response) {
       if (response.status === 200) {
         var current = element.innerHTML;
         var data = response.data;
-
         if (current === data) {
           element.innerHTML = data;
           getText(1000);
