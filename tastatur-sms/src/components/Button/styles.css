@@ -1,0 +1,37 @@
+.Button {
+  border: 0;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  width: 33.3333%;
+  height: 4rem;
+  background-color: white;
+}
+
+button.Button:focus {
+  outline: 0;
+}
+
+.Button--startRow {
+  border-left: none;
+}
+
+.Button--active {
+  background-color: var(--primary-color);
+}
+
+.Button--negative.Button--active {
+  background-color: black;
+  color: white;
+}
+
+.Button--width-small {
+  width: 16.66666%;
+}
+
+.Button--heigh-small {
+  height: 2.5rem;
+}
