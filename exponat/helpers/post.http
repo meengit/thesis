@@ -35,3 +35,20 @@ Content-Type: text/plain
 
  in Docker
 ###
+
+POST https://typewriter.meen.ch/post
+Content-Type: text/plain
+
+Hello DATA
+###
+
+POST https://typewriter.meen.ch/post
+Content-Type: text/plain
+
+ in Production
+###
+
+GET https://typewriter.meen.ch/reset
+Content-Type: text/plain
+
+###
