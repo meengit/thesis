@@ -60,4 +60,9 @@ Temporary Items
 # PROJECT
 #
 
+# IDEs and Editors
+.idea/
+thesis.iml
 
+# Node
+exponat/node_modules/*
