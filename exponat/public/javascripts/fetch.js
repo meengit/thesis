@@ -7,6 +7,7 @@ function getText(int) {
 function fetch() {
   clearInterval(nIntervId);
   axios.get("https://typewriter.meen.ch/text.txt")
+  // axios.get("http://localhost:8010/text.txt")
     .then(function(response) {
       if (response.status === 200) {
         var current = element.innerHTML;
