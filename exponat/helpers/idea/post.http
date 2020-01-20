@@ -3,52 +3,39 @@
 POST http://localhost:8010/post
 Content-Type: text/plain
 
-H
+Hello World
 ###
 
 POST http://localhost:8010/post
 Content-Type: text/plain
 
-e
+<br>Line break
 ###
 
 POST http://localhost:8010/post
 Content-Type: text/plain
 
-l
+\#
 ###
 
-POST http://localhost:8010/post
+POST http://typewriter.meen.ch/post
 Content-Type: text/plain
 
-l
+Hello World
 ###
 
-POST http://localhost:8010/post
+POST http://typewriter.meen.ch/post
 Content-Type: text/plain
 
-o
+<br>Line break
 ###
 
-POST http://localhost:8010/post
+POST http://typewriter.meen.ch/post
 Content-Type: text/plain
 
- in Docker
+\#
 ###
 
-POST https://typewriter.meen.ch/post
-Content-Type: text/plain
-
-Hello DATA
-###
-
-POST https://typewriter.meen.ch/post
-Content-Type: text/plain
-
- in Production
-###
-
-GET https://typewriter.meen.ch/reset
-Content-Type: text/plain
+POST https://lastip.services.campusderkuenste.ch/test123
 
 ###
